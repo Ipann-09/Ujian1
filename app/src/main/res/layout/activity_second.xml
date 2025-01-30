@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#E1000000"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Es Doger"
+        android:textColor="#FDFDFD"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        app:srcCompat="@drawable/duoger" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="      Es doger adalah salah satu susu kelapa dingin yang sering ditemui di Bandung, Jawa Barat. Walaupun es doger berasal dari Cirebon, es doger juga bisa ditemui di kota-kota besar di Indonesia, seperti Jakarta, Malang, dan Surabaya. Es doger berbahan dasar susu dan parutan kelapa, ditambah dengan tape, ketan hitam, alpukat, dan lain-lain."
+        android:textColor="#F6F6F6"
+        android:textSize="12sp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="     Asal usul nama Es Doger mengacu kepada jajanan yang biasa disuguhkan pada Pertunjukkan Doger. Doger adalah sebutan untuk penari perempuan Ronggeng di wilayah Dermasuci, Dermayon/Indramayu, Subang, Cirebon.
+
+    Bahan-bahan
+
+    Terbuat dari pacar cina, tapai, cincau hitam, susu, dan sirup berwarna merah."
+        android:textColor="#F6F6F6"
+        android:textSize="12sp"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="HOME" />
+
+</LinearLayout>
